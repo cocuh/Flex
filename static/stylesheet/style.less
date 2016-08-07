@@ -55,6 +55,7 @@ body {
   font-family: @sans;
   font-size: 1.02em;
   line-height: 1.2em;
+  word-break: break-all;
 }
 
 a {
@@ -237,6 +238,15 @@ main {
         vertical-align: top;
         border-top: 1px solid #ddd;
       }
+    }
+  }
+
+  article.articles {
+    img {
+      max-height: 320px;
+      max-width: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 
